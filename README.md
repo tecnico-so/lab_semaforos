@@ -14,7 +14,7 @@ No final deste guião, deverá ser capaz de:
 - Sistema operativo Linux Ubuntu 20.04 LTS (se não o tiverem disponível no vosso computador pessoal, podem utilizar os computadores do laboratório).
 
 ## Coordenação entre tarefas utilizando semáforos
- 1. Faça clone deste reposítório e analise o programa [barbeiro.c]().
+ 1. Faça clone deste reposítório e analise o programa [barbeiro.c](barbeiro.c).
  Este programa implementa o problema do barbeiro em sincronização de tarefas:
     - Um barbeiro corta o cabelo de um cliente de cada vez
     - Os clientes têm 5 cadeiras para esperarem a sua vez após entrarem na loja
