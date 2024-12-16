@@ -23,11 +23,11 @@ No final deste guião, deverá ser capaz de:
 
 3. Por que razão é necessário o trinco `mutex` ?
 
-4. Abra o ficheiro [estacionamento.c](). Nele encontra-se uma implementação do problema do estacionamento dado nas aulas teóricas, exceto as funções `entrarNoParque()` e `sairDoParque()`.
+4. Abra o ficheiro [estacionamento.c](estacionamento.c). Nele encontra-se uma implementação do problema do estacionamento dado nas aulas teóricas, exceto as funções `entrarNoParque()` e `sairDoParque()`.
 
 5. Complete a implementação do problema recorrendo a semáforos de modo a que fique correto do ponto de vista da sincronização de tarefas. Faça uso da biblioteca `<semaphore.h>`.
 
-6. Abra agora o ficheiro [estacionamento2.c]() e extenda a funcionalidade do programa para o seguinte caso:
+6. Abra agora o ficheiro [estacionamento2.c](estacionamento2.c) e extenda a funcionalidade do programa para o seguinte caso:
     - Existêm 3 tipos de utilizadores do parque: docentes, funcionários e alunos
     - Enquanto há lugares livres, a ordem de entrada é por ordem de chegada.
     - Quando o parque fica cheio, é dada prioridade à entrada de docentes, depois funcionários e por final alunos.
