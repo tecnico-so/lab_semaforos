@@ -1,4 +1,4 @@
-# Guião 6: Sincronização com semáforos
+# Guião sobre sincronização com semáforos
 
 ![IST](img/IST_DEI.png)  
 
@@ -50,4 +50,5 @@ Após a secção crítica ou a libertação do recurso limitado a tarefa chama `
 - Caso contrário incrementa o valor do semáforo
 
 Agora pode aplicar estes conhecimentos noutros projetos, que necessitem de acessos a recursos partilhados e limitados.
+
 
